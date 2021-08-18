@@ -1,0 +1,171 @@
+/* global */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+* {
+    margin: 0;
+    color: wheat;
+}
+body {
+    font-family: 'lato', sans-serif;
+}
+p {
+    line-height: 2;
+    font-size: 16px;
+    margin: 10px;
+    text-align: justify;
+}
+h1,h2,h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 42px;
+    text-align: left;
+}
+main {
+    background-color: steelblue;
+}
+
+/* utilities */
+
+.btn {
+    display: block;
+    width: 100px;
+    margin: 20px auto 20px auto;
+    background-color: steelblue;
+    font-size: 18px;
+    color: gold;
+    padding: 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+.btn:hover {
+    color: silver;
+    font-weight: 700;
+}
+.center-text {
+    text-align: center;
+}
+.container {
+    width: 80vw;
+    padding: 10px;
+    border: 2px solid coral;
+    margin: 0 auto 0 auto;
+}
+.container ul {
+    list-style-type: none;
+}
+section.container {
+    background-color: steelblue;
+}
+.second-btn {
+    padding: 1px;
+    border: 1px solid coral;
+    border-radius: 10%;
+    margin: 10px;
+    background-color: coral;
+    text-decoration: none;
+    text-align: center;
+}
+.second-btn:hover {
+    text-decoration: underline;
+    color: blue;
+}
+/* header */
+
+header.site-header {
+    background-color: coral;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 60px auto 0 auto;
+}
+header .title {
+    color: steelblue;
+    font-size: 45px;
+}
+header.site-header h2 {
+    font-size: 35px;
+}
+header.site-header p {
+    font-size: 20px;
+}
+
+/* menu */
+
+nav.menu {
+    background-color: black;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    overflow: hidden;
+    height: 20px;
+}
+nav.menu a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav.menu a:hover {
+    color: gold;
+    font-weight: 700;
+}
+
+/* footer */
+
+footer.site-footer {
+    background-color: coral;
+    padding-bottom: 5px;
+    border-top: 3px solid lightgray;
+    margin: 0;
+}
+footer.site-footer p {
+    text-align: center;
+    color: gold;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+/* projects */
+
+.project-container {
+    display: flex;
+}
+.project-container h5 {
+    font-size: 40px;
+}
+.project-container ul li {
+    font-size: 28px;
+    font-weight: 300;
+}
+.project-container img {
+    width: 50%;
+    margin: 20px 20px 20px 0px;
+}
+.project-container a {
+    display: block;
+    width: 80px;
+    margin: 20px auto 10px auto;
+    padding: 10px;
+    background-color: steelblue;
+    color: gold;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.project-container a:hover {
+    font-weight: 700;
+}
+.project-text {
+    border: 2px solid coral;
+    text-align: center;
+    overflow: auto;
+}
+
+/* contact */
+
+.contact-pic {
+    width: 100px;
+}
